@@ -12,7 +12,7 @@ original_model_name = 'mySVMModel.mat';
 
 % --- (이하 모든 과정은 100% 자동으로 처리됩니다) ---
 original_model_path = fullfile('..', '03_models', original_model_name);
-android_project_path = 'C:\Users\SeokHoLee\StudioProjects\GeunHwang';
+android_project_path = 'C:\Users\SeokHoLee\StudioProjects\Fortis';
 output_folder = fullfile(android_project_path, 'app', 'src', 'main', 'assets');
 
 [~, model_base_name, ~] = fileparts(original_model_name);

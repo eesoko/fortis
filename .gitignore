@@ -1,0 +1,32 @@
+# --- Android / Gradle ---
+.gradle/
+build/
+local.properties
+*.apk
+*.aab
+*.dm
+app/release/
+.cxx/
+.externalNativeBuild/
+
+# --- IDE ---
+.idea/
+*.iml
+.vscode/
+
+# --- MATLAB ---
+*.asv          # 편집기 자동 백업
+slprj/
+codegen/**/*.obj
+codegen/**/*.lib
+codegen/**/*.dmr
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- OS ---
+.DS_Store
+Thumbs.db

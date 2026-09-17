@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "GeunHwang"
+rootProject.name = "fortis"
 include(":app")
  

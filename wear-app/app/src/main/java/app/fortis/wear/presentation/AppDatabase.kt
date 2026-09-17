@@ -1,4 +1,4 @@
-package com.example.geunhwang.presentation
+package app.fortis.wear.presentation
 
 import android.content.Context
 import androidx.room.Database
@@ -26,7 +26,7 @@ abstract class AppDatabase : RoomDatabase() {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     AppDatabase::class.java,
-                    "geunhwang_database" // 데이터베이스 파일의 이름
+                    "fortis_database" // 데이터베이스 파일의 이름
                 ).build()
                 INSTANCE = instance
                 instance

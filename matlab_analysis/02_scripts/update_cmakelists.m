@@ -9,11 +9,10 @@
 
 function update_cmakelists()
 
-    % --- Android Studio cpp 디렉토리 절대경로 ---
-    % Desktop
-    %cppDir = 'C:\Users\dltjr\AndroidStudioProjects\GeunHwang\app\src\main\cpp';
-    % Laptop
-    cppDir = 'C:\Users\SeokHoLee\StudioProjects\GeunHwang\app\src\main\cpp';
+    % --- Android Studio cpp 디렉토리 (레포 기준 상대경로) ---
+    thisDir  = fileparts(mfilename('fullpath'));   % matlab_analysis/02_scripts
+    repoRoot = fullfile(thisDir, '..', '..');
+    cppDir   = fullfile(repoRoot, 'wear-app', 'app', 'src', 'main', 'cpp');
     % --- 타겟 서브폴더 ---
     featureDir = fullfile(cppDir, 'features');
     predictionDir = fullfile(cppDir, 'prediction');
@@ -40,7 +39,7 @@ function update_cmakelists()
     
     % --- 헤더 작성 ---
     fprintf(fid, 'cmake_minimum_required(VERSION 3.10)\n');
-    fprintf(fid, 'project(GeunHwangNative LANGUAGES C CXX)\n\n');
+    fprintf(fid, 'project(FortisNative LANGUAGES C CXX)\n\n');
     
     fprintf(fid, 'add_library(native-lib SHARED\n');
     fprintf(fid, '    native-lib.cpp\n');

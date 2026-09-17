@@ -1,4 +1,4 @@
-package com.example.geunhwang.presentation
+package app.fortis.wear.presentation
 
 // 여러 파일에서 함께 사용할 약속(정의)들을 모아두는 곳입니다.
 

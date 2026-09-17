@@ -1,4 +1,4 @@
-package com.example.geunhwang.presentation
+package app.fortis.wear.presentation
 
 import android.content.Context
 import android.hardware.Sensor

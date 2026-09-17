@@ -1,7 +1,7 @@
 % ===========================================================================
 % [ SCRIPT ]    : feature_extractor_codegen.m
 % [ VERSION ]   : 3.0
-% [ AUTHOR ]    : GeunHwang Project (Adapted by Gemini and gpt)
+% [ AUTHOR ]    : Fortis Project (Adapted by Gemini and gpt)
 % [ DATE ]      : 2025-09-19
 %
 % [ OVERVIEW ]

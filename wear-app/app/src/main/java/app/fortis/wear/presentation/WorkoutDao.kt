@@ -1,4 +1,4 @@
-package com.example.geunhwang.presentation
+package app.fortis.wear.presentation
 
 import androidx.room.Dao
 import androidx.room.Insert

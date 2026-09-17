@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.geunhwang"
+    namespace = "app.fortis.wear"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.geunhwang"
+        applicationId = "app.fortis.wear"
         minSdk = 30
         targetSdk = 34
         versionCode = 1

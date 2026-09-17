@@ -1,7 +1,7 @@
 % =========================================================================
 % [ SCRIPT ]    : update_android_model.m
 % [ VERSION ]   : 3.0 (Smart Auto-Detection Version)
-% [ AUTHOR ]    : GeunHwang Project (with Gemini)
+% [ AUTHOR ]    : Fortis Project (with Gemini)
 % [ DATE ]      : 2025-09-17
 %
 % [ OVERVIEW ]

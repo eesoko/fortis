@@ -49,7 +49,7 @@ codegen(predictor_name_str, '-config', cfg, '-args', final_codegen_args, '-d', c
 disp('>> Codegen 실행 완료.');
 
 %% --- 4단계 & 5단계: 파일 복사 및 정리 ---
-android_project_path = 'C:\Users\SeokHoLee\StudioProjects\GeunHwang';
+android_project_path = 'C:\Users\SeokHoLee\StudioProjects\Fortis';
 output_folder = fullfile(android_project_path, 'app', 'src', 'main', 'cpp');
 source_folder = fullfile(codegen_folder, 'lib', predictor_name_str);
 

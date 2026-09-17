@@ -1,7 +1,7 @@
 % =========================================================================
 % [ SCRIPT ]    : feature_extractor_elite.m
 % [ VERSION ]   : 2.1
-% [ AUTHOR ]    : GeunHwang Project
+% [ AUTHOR ]    : Fortis Project
 % [ DATE ]      : 2025-09-12
 %
 % [ OVERVIEW ]

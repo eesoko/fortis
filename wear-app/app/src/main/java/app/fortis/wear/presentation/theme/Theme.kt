@@ -1,10 +1,10 @@
-package com.example.geunhwang.presentation.theme
+package app.fortis.wear.presentation.theme
 
 import androidx.compose.runtime.Composable
 import androidx.wear.compose.material.MaterialTheme
 
 @Composable
-fun GeunHwangTheme(
+fun FortisTheme(
     content: @Composable () -> Unit
 ) {
     /**

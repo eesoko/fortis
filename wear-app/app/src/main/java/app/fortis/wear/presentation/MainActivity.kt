@@ -1,4 +1,4 @@
-package com.example.geunhwang.presentation
+package app.fortis.wear.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -22,8 +22,8 @@ import androidx.wear.compose.material.* // 에러 해결 4: Icon 등 Material �
 import androidx.wear.compose.navigation.SwipeDismissableNavHost
 import androidx.wear.compose.navigation.composable
 import androidx.wear.compose.navigation.rememberSwipeDismissableNavController
-import com.example.geunhwang.R // 에러 해결 5: R.drawable 리소스 사용을 위한 import
-import com.example.geunhwang.presentation.theme.GeunHwangTheme
+import app.fortis.wear.R // 에러 해결 5: R.drawable 리소스 사용을 위한 import
+import app.fortis.wear.presentation.theme.FortisTheme
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             val viewModel: MainViewModel = viewModel()
-            GeunHwangTheme {
+            FortisTheme {
                 WearAppNavigation(viewModel = viewModel)
             }
         }
@@ -125,7 +125,7 @@ fun MainScreen(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text("근황", fontSize = 24.sp, fontWeight = FontWeight.Bold)
+        Text("Fortis", fontSize = 24.sp, fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.height(16.dp))
 
         // 오늘의 운동 기록 버튼

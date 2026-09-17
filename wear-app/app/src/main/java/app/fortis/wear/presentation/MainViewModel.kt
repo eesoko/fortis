@@ -1,4 +1,4 @@
-package com.example.geunhwang.presentation
+package app.fortis.wear.presentation
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
